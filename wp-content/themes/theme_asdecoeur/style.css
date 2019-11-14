@@ -12,7 +12,8 @@
 /******GENERAL******/
  body{
  	height: 100vh;
-    background: #f7f7f7;
+    /*background: #f7f7f7;*/
+    background: red;
  }
  *{
  	font-family: 'Open Sans', sans-serif;
