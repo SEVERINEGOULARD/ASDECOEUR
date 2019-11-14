@@ -1,0 +1,94 @@
+/*
+ * Theme Name: Thème asdecoeur
+ * Version: 1.0
+ * URI du thème: localhost\WORDPRESS\asdecoeur\wp-content\themes\theme_asdecoeur
+ * Auteur: Séverine Goulard Massé
+ * Description: 
+ */
+ .temp{
+ 	color:red;
+ 	font-size: 50px;
+ }
+/******GENERAL******/
+ body{
+ 	height: 100vh;
+    background: #f7f7f7;
+ }
+ *{
+ 	font-family: 'Open Sans', sans-serif;
+ }
+ /******HEADER******/
+ .cst-header{
+ 	background: url('img/entree.jpg') no-repeat;
+ 	background-size: cover;
+ 	min-height: 258px;
+ 	display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+ }
+ .cst-header h1, .cst-header h2{
+ 	color: #626262;
+    background-image:linear-gradient(to right, #aba8a8, hsla(0,0%,100%,-1.55));
+    padding: 8px 20px;
+    border-radius: 3px;
+    /*box-shadow: 3px 2px 10px #8f8f8f;*/
+ }
+ .cst-header-left{
+ 	float: left;
+    max-width: 146px;
+    width: 30%;
+ }
+ .cst-header-right{
+ 	width: 70%;
+ }
+ .cst-back-header-right{
+ 	width: 80%;
+ 	text-align: left;
+ }
+ .cst-img-header{
+ 	width: 100%;
+ }
+ .cst-cont-menu{
+ 	width: 74%;
+ 	height: 40px;
+    margin: 0 auto;
+ }
+ nav{
+ 	background: #fff;
+ }
+ .cst-menu{
+ 	list-style: none;
+ 	justify-content: space-around;
+    display: flex;
+ }
+ .cst-menu li a{
+ 	text-decoration: none;
+ 	font-weight: 800;
+    color: #361d84;
+ }
+ .cst-menu li{
+    margin: 10px 0 10px 0;
+ }
+ /******ASIDE******/
+ .cst-section{
+ 	width: 200px;
+    float: left;
+ }
+ .cst-div-widget{
+ 	text-align: center;
+ }
+ /******FOOTER******/
+ footer{
+ 	position: fixed;
+    bottom: 0;
+    width:100%;
+    background: #dfdfdf;
+ }
+ .cst-footer{
+ 	text-align: center;
+ }
+ /******PAGE ACCUEIL******/
+ .page-accueil{
+ 	padding-right: 70px;
+ }
